@@ -25,11 +25,11 @@ namespace TransportApp
         {
             List<Transport> transports = new List<Transport>
             {
-                new Boat { Model = "THE SEGUE 76", Color = "Oak Wood and White Gold", Speed = 10, IsRented = false },
-                new Car { Model = "Mercedes-Benz S-class 2020", Color = "Deep Purple", Speed = 220, IsRented = true },
+                new Boat { Model = "THE SEGUE 76", Color = "Oak Wood and White Gold", Speed = 25, IsRented = false },
+                new Car { Model = "Mercedes-Benz S-class", Color = "Deep Purple", Speed = 220, IsRented = true },
                 new Bicycle { Model = "Grail CF SL 7", Color = "Biege", Speed = 12, IsRented = false },
                 new Motorcycle { Model = "Harley-Davidson Sportster S", Color = "Black", Speed = 160, IsRented = false },
-                new Scooter { Model = "Vespa", Color = "Purple", Speed = 36, IsRented = true }
+                new Scooter { Model = "Dualtron 2", Color = "Purple", Speed = 100, IsRented = false }
             };
 
             Console.WriteLine("List of all transport:");
